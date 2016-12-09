@@ -8,6 +8,16 @@ keywords: Blog,Post
     <div class="info">
         <span class="info-title"><i class="icon-calendar"></i> Published: </span>
         <span class="info-date">{{ page.date | date_to_string }}</span>
+		
+		<span id="http://www.cloudchou.com" class="leancloud_visitors meta_data_item" data-flag-title="">
+			<span class="post-meta-item-icon">
+				<span class="octicon octicon-eye"></span> 
+			</span>
+			<span class="old-visitors-count" style="display: none;"></span>
+			<span class="leancloud-visitors-count"></span>
+			<span class="post-meta-item-text">次浏览</span>
+		</span>
+		
         <span class="info-title"><i class="icon-folder-open"></i> Category: </span>
         <span class="info-link"><a href="{{ site.url }}/categories.html#{{ page.category }}-ref" >{{ page.category }}</a></span>
     </div>
