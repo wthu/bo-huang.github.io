@@ -117,8 +117,3 @@ duoshuo:
 #baidu share config
 baiduShare:
   config: true
-
-#LeanCloud tongji visitors
-lean_cloud:
-  app_id: 1PB7y77OCSk5Og9i0CTlLEUg-gzGzoHsz
-  app_key: 2WGH6bhjc1TADSS5AmoTd9tW
